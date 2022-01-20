@@ -141,7 +141,7 @@ impl<N: Network, E: Environment> Ledger<N, E> {
                     if E::NODE_TYPE != NodeType::Prover{
                         ledger.update(request).await;
                     }else{
-                        self.update_simple(request).await;
+                        ledger.update_simple(request).await;
                     }
                 }
             }));
