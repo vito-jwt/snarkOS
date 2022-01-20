@@ -15,7 +15,7 @@
 // along with the snarkOS library. If not, see <https://www.gnu.org/licenses/>.
 
 use crate::{Data, Environment, LedgerReader, LedgerRouter, Message, OperatorRouter, OutboundRouter, Peer, ProverRouter,
-    helpers::{NodeType, State},
+    helpers::{NodeType}
 };
 use snarkvm::dpc::prelude::*;
 
